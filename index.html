@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="auhtor" content="ONANA vital">
+
+    <!-- CSS path -->
+    <link rel="stylesheet" href="lib/tailwindcss/tailwind.min.css">
+    <link rel="stylesheet" href="design/style.css">
+
+    <!-- Title -->
+    <title>Modern Form</title>
+</head>
+<body>
+    <!-- Content of web page -->
+    <div class="flex flex-wrap justify-center pt-32" id="form">
+        <div class="block bg-white p-6 rounded-lg" id="form_content">
+            <h3 class="font-bold text-3xl text-left">Welcome Back!</h3>
+            <br>
+            <!-- Inputs(Email and Password) -->
+            <div class="block">
+                <input type="email" placeholder="Email" class="w-full" />
+                <input type="password" placeholder="Password" class="w-full" />
+                <p class="text-right font-bold mt-3 mb-6">Forget Password?</p>
+                <button type="submit" class="w-full font-bold">Log In</button>
+                <br><br>
+                <div class="flex flex-wrap justify-center">
+                    <p class="text-center p-2" id="other">
+                        <span>Log In or</span>
+                    </p>
+                </div>
+                <hr class="mt-6 mb-6 font-bold" style="z-index:999;">
+                <br>
+                <button type="submit" class="w-full font-bold flex justify-center align-middle items-center gap-2 google mb-5">
+                    <img src="assets/img/google.png" height="30" width="30">
+                    Log In with Google
+                </button>
+                <button type="submit" class="w-full font-bold flex justify-center align-middle items-center gap-2 apple">
+                    <img src="assets/img/apple.png" height="30" width="30">
+                    Log In with Apple
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

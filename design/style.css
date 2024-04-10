@@ -1,0 +1,60 @@
+/* Variables */
+:root
+{
+    --identity: #09BF99;
+    --bg: #1A2831;
+    --color: #fff;
+    --text: var(--bg);
+    --radius: 8px;
+    --gray: #F8F3F7;
+    --font: Montserrat;
+}
+body
+{
+    background-color: var(--bg);
+    padding: 0;
+    margin: 0;
+    font-family: var(--font);
+}
+#form_content
+{
+    width: 450px;
+}
+#form input
+{
+    background-color: #F7F2F6;
+    padding: 14px;
+    margin-top: 14px;
+    border-radius: var(--radius);
+    outline: none;
+}
+#form input::placeholder
+{
+    font-weight: bold;
+    font-size: 13px;
+}
+#form button
+{
+    background-color: var(--identity);
+    border-radius: var(--radius);
+    color: var(--color);
+    padding: 14px;
+}
+#form .apple
+{
+    background-color: var(--bg);
+}
+#form .google
+{
+    background-color: var(--white);
+    border: 2px solid var(--gray);
+    color: var(--bg);
+}
+#form #other
+{
+    background-color: #fff;
+    margin-bottom: -48px;
+    z-index: 1000;
+    transform: scale(1.1);
+    width: 100px;
+}
